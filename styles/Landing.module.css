@@ -1,0 +1,201 @@
+.background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: radial-gradient(ellipse at bottom, #4B7A90, #142b43, #142b43);
+    overflow: hidden;
+}
+
+.space {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.stars {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100vw;
+    height:100vh;
+    display:block;
+    background: transparent url(http://www.script-tutorials.com/demos/360/images/stars.png)
+    repeat top center;
+    z-index: 0;
+}
+
+.cometField {
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    transform: rotateZ(45deg);
+}
+
+.comet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 4px;
+    width: 100px;
+    background: linear-gradient(-45deg, #F4E3D7, rgba(20, 43, 67, 0));
+    border-radius: 999px;
+    filter: drop-shadow(0 0 5px #F4E3D7);
+    z-index: 1;
+    visibility: hidden;
+    animation: tail 3s ease-in-out infinite, falling 3s ease-in-out infinite;
+}
+
+@keyframes tail {
+    0% {
+        width: 0px;
+        visibility: visible;
+    }
+    40% {
+        width: 100px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes falling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+}
+
+.comet::before , .comet::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    right: 0;
+    height: 4px;
+    width: 30px;
+    background: linear-gradient(-45deg, rgba(20, 43, 67, 0), #F4E3D7, rgba(20, 43, 67, 0));
+    border-radius: 100%;
+    transform: translateX(50%) rotateZ(45deg);
+    z-index: 1;
+    visibility: hidden;
+    animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+        width: 0px;
+        visibility: visible;
+    }
+    50% {
+        width: 30px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+.comet::after {
+    transform: translateX(50%) rotateZ(-45deg);
+}
+
+.comet:nth-child(1) {
+    top: calc(50% - 200px);
+    left: calc(50% - 50px);
+    animation-delay: 0s;
+}
+
+.comet:nth-child(1)::before, .comet:nth-child(1)::after {
+    animation-delay: 0s;
+}
+
+.comet:nth-child(2) {
+    top: calc(50% + 200px);
+    left: calc(50% - 250px);
+    animation-delay: 0.3s;
+}
+
+.comet:nth-child(2)::before, .comet:nth-child(2)::after {
+    animation-delay: 0.3s;
+}
+
+.comet:nth-child(3) {
+    top: calc(50% - 50px);
+    left: calc(50% - 100px);
+    animation-delay: 0.7s;
+}
+
+.comet:nth-child(3)::before, .comet:nth-child(3)::after {
+    animation-delay: 0.7s;
+}
+
+.comet:nth-child(4) {
+    top: calc(50% + 150px);
+    left: calc(50% - 400px);
+    animation-delay: 1.2s;
+}
+
+.comet:nth-child(4)::before, .comet:nth-child(4)::after {
+    animation-delay: 1.2s;
+}
+
+.planet {
+    position: absolute;
+    bottom: -320px;
+    left: calc(50% - 300px);
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(-45deg, 
+    #F4E3D7, #F4E3D7, #F4E3D7,
+    #E5C4AB, #E5C4AB, #E5C4AB, #E5C4AB,
+    #D0836E, #D0836E, #D0836E);
+    background-size: 200% 200%;
+    border-radius: 50%;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    animation: spin 10s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:  0;
+}
+
+.footer {
+    position: absolute;
+    z-index: 3;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    top: 0;
+    left: calc(50% - 100px);
+    right: calc(50% - 100px);
+}

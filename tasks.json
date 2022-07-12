@@ -1,0 +1,402 @@
+[
+    {
+        "id": "101",
+        "title": "Hello SKE20",
+        "link": "https://elabsheet.org/elab/taskpads/show/m6smlq599c/",
+        "difficulty": 1,
+        "topics": [
+            "Day 1", "Imperative Programming"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "102",
+        "title": "f-string 01",
+        "link": "https://elabsheet.org/elab/taskpads/show/y0v7u597nc/",
+        "difficulty": 1,
+        "topics": [
+            "Day 1", "String"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "103",
+        "title": "f-string 02",
+        "link": "https://elabsheet.org/elab/taskpads/show/ts8gac5m88/",
+        "difficulty": 2,
+        "topics": [
+            "Day 1", "String"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "104",
+        "title": "Operators 01",
+        "link": "https://elabsheet.org/elab/taskpads/show/5o21vwzc9r/",
+        "difficulty": 1,
+        "topics": [
+            "Day 1", "Arithmetic"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "105",
+        "title": "Operators 02",
+        "link": "https://elabsheet.org/elab/taskpads/show/ue5w0ni5qm/",
+        "difficulty": 2,
+        "topics": [
+            "Day 1", "Arithmetic"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "106",
+        "title": "Plus10",
+        "link": "https://elabsheet.org/elab/taskpads/show/tjfbiviz7i/",
+        "difficulty": 2,
+        "topics": [
+            "Day 1", "Arithmetic"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "107",
+        "title": "Into Second",
+        "link": "https://elabsheet.org/elab/taskpads/show/c96nzqi32k/",
+        "difficulty": 3,
+        "topics": [
+            "Day 1", "Arithmetic"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "108",
+        "title": "Some Arithmetic",
+        "link": "https://elabsheet.org/elab/taskpads/show/fkpss6v7vl/",
+        "difficulty": 3,
+        "topics": [
+            "Day 1", "Arithmetic"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "109",
+        "title": "Circle",
+        "link": "https://elabsheet.org/elab/taskpads/show/4w2h5aaav0/",
+        "difficulty": 2,
+        "topics": [
+            "Day 1", "Arithmetic", "Math Module"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "110",
+        "title": "Distance(basic)",
+        "link": "https://elabsheet.org/elab/taskpads/show/k8e9ukczdf/",
+        "difficulty": 2,
+        "topics": [
+            "Day 1", "Arithmetic", "Math Module"
+        ],
+        "timeOpen": 1657666800
+    },
+    {
+        "id": "201",
+        "title": "ChicKen",
+        "link": "https://elabsheet.org/elab/taskpads/show/ddthwzw5n1/",
+        "difficulty": 1,
+        "topics": [
+            "Day 2", "Conditional"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "203",
+        "title": "Conditions",
+        "link": "https://elabsheet.org/elab/taskpads/show/zu500msb2v/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Conditional"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "204",
+        "title": "loop 01",
+        "link": "https://elabsheet.org/elab/taskpads/show/zu500msb2v/",
+        "difficulty": 1,
+        "topics": [
+            "Day 2", "Loops"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "205",
+        "title": "loop 02",
+        "link": "https://elabsheet.org/elab/taskpads/show/w5671beou5/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Loops"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "206",
+        "title": "Average Score",
+        "link": "https://elabsheet.org/elab/taskpads/show/lvvkz879h1/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Loops"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "208",
+        "title": "Append",
+        "link": "https://elabsheet.org/elab/taskpads/show/44avaocfms/",
+        "difficulty": 1,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "209",
+        "title": "Delete last element",
+        "link": "https://elabsheet.org/elab/taskpads/show/x06c6fqjcf/",
+        "difficulty": 1,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "210",
+        "title": "Collection Unique",
+        "link": "https://elabsheet.org/elab/taskpads/show/gld4m0ukm5/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "211",
+        "title": "Combine list",
+        "link": "https://elabsheet.org/elab/taskpads/show/f0axjnkjok/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "212",
+        "title": "Print dic value",
+        "link": "https://elabsheet.org/elab/taskpads/show/cc47r7dxth/",
+        "difficulty": 1,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "213",
+        "title": "dictionary Dictionary Remove Key (pop())",
+        "link": "https://elabsheet.org/elab/taskpads/show/4umk8uo2jq/",
+        "difficulty": 1,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "214",
+        "title": "List to Dictionary",
+        "link": "https://elabsheet.org/elab/taskpads/show/zrq8sd4vf3/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Collection"
+        ],
+        "timeOpen": 1657753200
+    },
+    {
+        "id": "299",
+        "title": "Reversing a list",
+        "link": "https://elabsheet.org/elab/taskpads/show/ibkvx6hixy/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Collection", "Optional"
+        ],
+        "timeOpen": 1657789200
+    },
+    {
+        "id": "202",
+        "title": "Identify Number",
+        "link": "https://elabsheet.org/elab/taskpads/show/m31o46wc3j/",
+        "difficulty": 3,
+        "topics": [
+            "Day 2", "Conditional", "Optional"
+        ],
+        "timeOpen": 1657789200
+    },
+    {
+        "id": "207",
+        "title": "Average with while loop",
+        "link": "https://elabsheet.org/elab/taskpads/show/lvvkz879h1/",
+        "difficulty": 2,
+        "topics": [
+            "Day 2", "Loops", "Optional"
+        ],
+        "timeOpen": 1657789200
+    },
+    {
+        "id": "215",
+        "title": "Kurunon Market",
+        "link": "https://elabsheet.org/elab/taskpads/show/dbt0hisszf/",
+        "difficulty": 3,
+        "topics": [
+            "Day 2", "Collection", "Optional"
+        ],
+        "timeOpen": 1657789200
+    },
+    {
+        "id": "301",
+        "title": "Indexing and Slicing",
+        "link": "https://elabsheet.org/elab/taskpads/show/up6gn1917z/",
+        "difficulty": 1,
+        "topics": [
+            "Day 3", "Indexing and Slicing"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "302",
+        "title": "Into Second",
+        "link": "https://elabsheet.org/elab/taskpads/show/d3ar6l60al/",
+        "difficulty": 2,
+        "topics": [
+            "Day 3", "Indexing and Slicing", "List Comprehension"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "303",
+        "title": "Phone Number",
+        "link": "https://elabsheet.org/elab/taskpads/show/d3ar6l60al/",
+        "difficulty": 4,
+        "topics": [
+            "Day 3", "Indexing and Slicing"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "304",
+        "title": "Aa-ragok Cipher",
+        "link": "https://elabsheet.org/elab/taskpads/show/ju71ubray8/",
+        "difficulty": 3,
+        "topics": [
+            "Day 3", "List Comprehension"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "306",
+        "title": "Function",
+        "link": "https://elabsheet.org/elab/taskpads/show/4tk32ek8rq/",
+        "difficulty": 1,
+        "topics": [
+            "Day 3", "Function"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "307",
+        "title": "lambda",
+        "link": "https://elabsheet.org/elab/taskpads/show/7n1bauezfh/",
+        "difficulty": 2,
+        "topics": [
+            "Day 3", "Function"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "308",
+        "title": "Check Consonant or Vowel",
+        "link": "https://elabsheet.org/elab/taskpads/show/tpajom25my/",
+        "difficulty": 2,
+        "topics": [
+            "Day 3", "Function"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "309",
+        "title": "is_prime",
+        "link": "https://elabsheet.org/elab/taskpads/show/dc8uxws10v/",
+        "difficulty": 3,
+        "topics": [
+            "Day 3", "Function"
+        ],
+        "timeOpen": 1657839600
+    },
+    {
+        "id": "305",
+        "title": "Distance(list comprehension)",
+        "link": "https://elabsheet.org/elab/taskpads/show/p9lzqcpstb/",
+        "difficulty": 3,
+        "topics": [
+            "Day 3", "List Comprehension", "Optional"
+        ],
+        "timeOpen": 1657875600
+    },
+    {
+        "id": "310",
+        "title": "projectile",
+        "link": "https://elabsheet.org/elab/taskpads/show/8fxt6ub6nd/",
+        "difficulty": 4,
+        "topics": [
+            "Day 3", "Function", "Optional"
+        ],
+        "timeOpen": 1657875600
+    },
+    {
+        "id": "990",
+        "title": "Polynomial Equation",
+        "link": "https://elabsheet.org/elab/taskpads/show/zu500msb2v/",
+        "difficulty": 4,
+        "topics": [
+            "Challenge"
+        ],
+        "timeOpen": 1657875600
+    },
+    {
+        "id": "991",
+        "title": "Star Pyramid",
+        "link": "https://elabsheet.org/elab/taskpads/show/yt9rbz0yod/",
+        "difficulty": 4,
+        "topics": [
+            "Challenge"
+        ],
+        "timeOpen": 1657875600
+    },
+    {
+        "id": "992",
+        "title": "The Four Elements",
+        "link": "https://github.com/SOS-SKE20/Challenge",
+        "difficulty": 4,
+        "topics": [
+            "Challenge"
+        ],
+        "timeOpen": 1657875600
+    },
+    {
+        "id": "999",
+        "title": "Final Journey",
+        "link": "https://bit.ly/3uANEn2",
+        "difficulty": 5,
+        "topics": [
+            "Final Challenge"
+        ],
+        "timeOpen": 1657875600
+    }
+]
