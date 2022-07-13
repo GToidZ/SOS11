@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Instructions",
+        "answer": "To use the website, click on the task you want to work on. (it is not required to do task by task in order)<br>Then, when you completed a task in an external tab/page, be sure to check the box of that task in the list."
+    },
+    {
+        "question": "Why are my checkboxes gone?",
+        "answer": "Let's clarify something up first, this website does not use any backend database, meaning everything is saved on your computer by using a web technology, <a href='https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API' target='_blank' style='color: white;'>Web Storage API</a>.<br>Which means, whenever you delete your data, cookies or change browsers, all those checkboxes will have different states from each browser."
+    },
+    {
+        "question": "What do you use to make this website?",
+        "answer": "Mainly <a href='https://nextjs.org/' target='_blank' style='color: white;'>Next.js</a> framework with a UI toolkit, <a href='https://mantine.dev/' target='_blank' style='color: white;'>Mantine</a>. They are written in Typescript.<br>For hosting, it's <a href='https://vercel.com/' target='_blank' style='color: white;'>Vercel</a>."
+    },
+    {
+        "question": "Where can I see the source code?",
+        "answer": "It's on Github but I won't link it since the code is really bad and has A LOT of unconventional structure.<br>It won't be a good code for learning but if you are interested do seek the answer."
+    }
+]

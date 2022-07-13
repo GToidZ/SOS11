@@ -1,10 +1,14 @@
-import { Center, SimpleGrid, Text } from '@mantine/core'
+import { Center, Divider, Kbd, Modal, ScrollArea, SimpleGrid, Stack, Text, Title } from '@mantine/core'
+import { useHotkeys } from '@mantine/hooks'
 import type { GetServerSideProps, NextPage } from 'next'
 import { Navbar } from '../components/Navbar'
 import { TaskList } from '../components/TaskList'
+import { useState } from 'react'
 import { getCookie, hasCookie } from 'cookies-next'
 import styles from '../styles/Home.module.css'
+import qa from '../questions.json'
 import axios from 'axios'
+import parse from 'html-react-parser'
 import Head from 'next/head'
 
 type Props = {
@@ -12,6 +16,11 @@ type Props = {
 }
 
 const Home: NextPage = ({username}: Props) => {
+  const [modalOpened, setModalOpened] = useState(false);
+  useHotkeys([
+    ['shift+h', () => setModalOpened(!modalOpened)]
+  ])
+
   return (
     <div className={styles.container}>
       <Head>
@@ -21,9 +30,24 @@ const Home: NextPage = ({username}: Props) => {
       </Head>
       <SimpleGrid cols={1}>
         <Navbar name={username ? username : ""}></Navbar>
+        <Center><Text onClick={() => setModalOpened(true)}>Hit <Kbd>Shift</Kbd>+<Kbd>H</Kbd> for help or click on this text</Text></Center>
         <TaskList></TaskList>
-        <Center><Text>Note: Checkboxes only save in-browser, changing browser may change the checkboxes&apos; state.</Text></Center>
       </SimpleGrid>
+      <Modal opened={modalOpened} onClose={() => setModalOpened(false)} title="Help" size="xl">
+        <ScrollArea style={{height: 400}}>
+          {
+            qa.map(entry => {
+              return (
+                <Stack key={entry.question}>
+                  <Title order={2}>{entry.question}</Title>
+                  <Text>{parse(entry.answer)}</Text>
+                  <Divider size="sm" my="lg"></Divider>
+                </Stack>
+              )
+            })
+          }
+        </ScrollArea>
+      </Modal>
     </div>
   )
 }
