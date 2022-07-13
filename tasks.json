@@ -121,8 +121,8 @@
     },
     {
         "id": "204",
-        "title": "loop 01",
-        "link": "https://elabsheet.org/elab/taskpads/show/zu500msb2v/",
+        "title": "Loop 01",
+        "link": "https://elabsheet.org/elab/taskpads/show/1ypwcxyucr/",
         "difficulty": 1,
         "topics": [
             "Day 2", "Loops"
@@ -131,11 +131,11 @@
     },
     {
         "id": "205",
-        "title": "loop 02",
-        "link": "https://elabsheet.org/elab/taskpads/show/w5671beou5/",
+        "title": "Awaiting Changes",
+        "link": "#",
         "difficulty": 2,
         "topics": [
-            "Day 2", "Loops"
+            "Day 2"
         ],
         "timeOpen": 1657753200
     },
@@ -151,7 +151,7 @@
     },
     {
         "id": "208",
-        "title": "Append",
+        "title": "Appending",
         "link": "https://elabsheet.org/elab/taskpads/show/44avaocfms/",
         "difficulty": 1,
         "topics": [
@@ -161,7 +161,7 @@
     },
     {
         "id": "209",
-        "title": "Delete last element",
+        "title": "Delete Last Element",
         "link": "https://elabsheet.org/elab/taskpads/show/x06c6fqjcf/",
         "difficulty": 1,
         "topics": [
@@ -181,7 +181,7 @@
     },
     {
         "id": "211",
-        "title": "Combine list",
+        "title": "Combine List",
         "link": "https://elabsheet.org/elab/taskpads/show/f0axjnkjok/",
         "difficulty": 2,
         "topics": [
@@ -191,7 +191,7 @@
     },
     {
         "id": "212",
-        "title": "Print dic value",
+        "title": "Print Dict Value",
         "link": "https://elabsheet.org/elab/taskpads/show/cc47r7dxth/",
         "difficulty": 1,
         "topics": [
@@ -201,7 +201,7 @@
     },
     {
         "id": "213",
-        "title": "dictionary Dictionary Remove Key (pop())",
+        "title": "Dictionary Remove Key (pop())",
         "link": "https://elabsheet.org/elab/taskpads/show/4umk8uo2jq/",
         "difficulty": 1,
         "topics": [

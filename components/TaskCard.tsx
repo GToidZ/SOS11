@@ -17,7 +17,7 @@ export const TaskCard = ({id, title, link, difficulty, topics}: TaskCardProps) =
     if(difficulty < 1) {difficulty = 1;}
 
     return (
-        <Card shadow={theme.shadows.sm} radius="md" component="a" href={link} target="_blank" style={{
+        <Card shadow={theme.shadows.sm} radius="md" style={{
             padding: "2rem 1.5rem"
         }} sx={(theme) => ({
             backgroundColor: theme.colors.dark[6],
@@ -28,7 +28,13 @@ export const TaskCard = ({id, title, link, difficulty, topics}: TaskCardProps) =
             <Group position='apart' sx={{marginBottom: "1rem"}}>
                 <Group position='left'>
                     <Checkbox checked={completed} onChange={(e) => setCompleted(e.currentTarget.checked)} color="teal"></Checkbox>
-                    <Text weight={600} size="xl">{title}</Text>
+                    <Text weight={600} size="xl" component="a" href={link} target="_blank"
+                    sx={{
+                        textDecoration: "none",
+                        '&:hover': {
+                            textDecoration: "underline"
+                        }
+                    }}>{title}</Text>
                 </Group>
                 <Badge variant='filled' size="lg" sx={(theme) => ({
                     backgroundColor: theme.colors.sos11[2],
