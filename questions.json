@@ -13,6 +13,6 @@
     },
     {
         "question": "Where can I see the source code?",
-        "answer": "It's on Github but I won't link it since the code is really bad and has A LOT of unconventional structure.<br>It won't be a good code for learning but if you are interested do seek the answer."
+        "answer": "Since I was a beginner at React, the code is really bad and has A LOT of unconventional structure.<br>It won't be a good code for learning but here: <a href='https://github.com/GToidZ/SOS11' target='_blank' style='color: white;'>Source</a>"
     }
 ]
