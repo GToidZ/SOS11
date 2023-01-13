@@ -54,23 +54,24 @@ const Home: NextPage = ({username}: Props) => {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const {req, res} = context;
-  if(!hasCookie("discordKey", {req, res})) {
-    return {
-      redirect: {
-        permanent: false,
-        destination: "/landing"
-      },
-      props: {}
-    }
-  }
-  const key = getCookie("discordKey", {req, res})
-  const resp = await axios.get(`https://discord.com/api/v10/users/@me`,
-  {
-      headers: {
-          Authorization: 'Bearer ' + key
-      }
-  });
-  const { username } = resp.data;
+  //if(!hasCookie("discordKey", {req, res})) {
+  //  return {
+  //    redirect: {
+  //      permanent: false,
+  //      destination: "/landing"
+  //    },
+  //    props: {}
+  //  }
+  //}
+  //const key = getCookie("discordKey", {req, res})
+  //const resp = await axios.get(`https://discord.com/api/v10/users/@me`,
+  //{
+  //    headers: {
+  //        Authorization: 'Bearer ' + key
+  //    }
+  //});
+  //const { username } = resp.data;
+  const username = "visitor";
   return {props: { username }};
 }
 
